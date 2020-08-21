@@ -13,7 +13,7 @@ class Person(db.Model):
   name = db.Column(db.String(), nullable=False)
 
   def __repr__(self):
-    return f'<Peson {self.id}, {self.name}>'
+    return f'<Person {self.id}, {self.name}>'
 
 db.create_all()
 
